@@ -1,13 +1,62 @@
-
-
+/*encabezados*/
 h3, h5{
     text-align: center;
 }
 
+/*color del texto*/
+#somos, #elegirnos{
+    color: #045975;
+}
 
+/*inicio*/
+#inicio{
+    background-image:url(img/inicio.jpg);
+    background-size: 100% 100%;
+    width: 100%;
+    height: 600px;
+    margin-top: -2.5%;
+    margin-bottom: 5%;
+}
+#inicio p{
+    color: white;
+    padding: 10%;
+    text-align: center;
+    font-size: 2em;
+}
+#inicio button{
+    display: block;
+    margin: auto;
+    background-color: #9aeba6 !important;
+    color: white;
+    padding: 1%;
+    border-radius: 15px;
+    font-weight: bold;
+    font-size: 1.5em;
+    border-style: none;
+}
+
+
+#trabajamos img{
+    display: block;
+    margin: auto;
+    width: 15%;
+}
+
+#valores img{
+    width: 25%;
+    display: block;
+    margin: auto;
+}
 
 footer{
+    margin-top: 10%;
     background-color: #045975;
     color: white !important;
     padding: 2% 0%;
+}
+
+footer img{
+   padding: 5%;
+   width: 20%;
+   margin-top: 30%;
 }
