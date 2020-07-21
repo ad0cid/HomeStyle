@@ -1,13 +1,52 @@
 
-
-h3, h5{
+h3{
     text-align: center;
+    color: #35c0ed;
+    
+    
 }
 
+#elegirnos p{
+    color: #045975;
+}
+#elegirnos i{
+    color: #9aeba6;
+}
 
+#trabajamos img{
+    display: block;
+    margin: auto;
+    width: 15%;
+}
+#trabajamos h5{
+    color: #35c0ed;
+    text-align: center;
+}
+#trabajamos p{
+    color: #045975;
+}
+
+#valores img{
+    display: block;
+    margin: auto;
+    width: 20%;
+}
+#valores h5{
+    color: #35c0ed;
+    text-align: center;
+}
+#valores p{
+    color: #045975;
+}
 
 footer{
     background-color: #045975;
     color: white !important;
     padding: 2% 0%;
+    margin-top: 5%;
+}
+footer img{
+    width: 20%;
+    padding: 5%;
+    margin-top: 20%;
 }
