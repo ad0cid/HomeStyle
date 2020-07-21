@@ -3,6 +3,7 @@ h3, h5{
     text-align: center;
 }
 
+<<<<<<< HEAD
 /*color del texto*/
 #somos, #elegirnos{
     color: #045975;
@@ -33,9 +34,36 @@ h3, h5{
     font-weight: bold;
     font-size: 1.5em;
     border-style: none;
+=======
+h3{
+    text-align: center;
+    color: #35c0ed;
+    
+    
 }
 
+#elegirnos p{
+    color: #045975;
+}
+#elegirnos i{
+    color: #9aeba6;
+>>>>>>> master
+}
 
+#trabajamos img{
+    display: block;
+    margin: auto;
+    width: 15%;
+}
+#trabajamos h5{
+    color: #35c0ed;
+    text-align: center;
+}
+#trabajamos p{
+    color: #045975;
+}
+
+<<<<<<< HEAD
 #trabajamos img{
     display: block;
     margin: auto;
@@ -46,6 +74,19 @@ h3, h5{
     width: 25%;
     display: block;
     margin: auto;
+=======
+#valores img{
+    display: block;
+    margin: auto;
+    width: 20%;
+}
+#valores h5{
+    color: #35c0ed;
+    text-align: center;
+}
+#valores p{
+    color: #045975;
+>>>>>>> master
 }
 
 footer{
@@ -53,10 +94,18 @@ footer{
     background-color: #045975;
     color: white !important;
     padding: 2% 0%;
+    margin-top: 5%;
 }
+<<<<<<< HEAD
 
 footer img{
    padding: 5%;
    width: 20%;
    margin-top: 30%;
+=======
+footer img{
+    width: 20%;
+    padding: 5%;
+    margin-top: 20%;
+>>>>>>> master
 }
