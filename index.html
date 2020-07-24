@@ -5,7 +5,7 @@
         <!--Import Google Icon Font-->
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <!--Import materialize.css-->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
         <!--Let browser know website is optimized for mobile-->
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <!--mi CSS-->
@@ -14,41 +14,53 @@
     </head>
 
     <body>
-        <header>
-            <!-- Dropdown Structure -->
+        <!-- Dropdown Structure -->
             <ul id="dropdown1" class="dropdown-content">
                 <li><a href="#!">one</a></li>
                 <li><a href="#!">two</a></li>
+                <li class="divider"></li>
+                <li><a href="#!">three</a></li>
             </ul>
-            <nav>
-                <div class="navbar-fixed">
-                    <a href="#" class="brand-logo">Logo</a>
+        <header class="navbar-fixed">
+            <nav >
+                <div>
+                    <a href="index.html" class="brand-logo"><img src="img/logo.png" class="logo" alt="Logo de Representación Hipotecaria"></a>
+                    <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
                     <ul id="nav-mobile" class="right hide-on-med-and-down">
-                        <li><a href="sass.html">Quiénes Somos</a></li>
-                        <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">Dropdown<i class="material-icons right">arrow_drop_down</i></a></li>
-                        <li><a href="collapsible.html">Por qué elegirnos</a></li>
-                        <li><a href="collapsible.html">Contáctanos</a></li>
+                        <li><a href="creditos.html">Quiénes Somos</a></li>
+                        <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">Servicios<i class="material-icons right">arrow_drop_down</i></a></li>
+                        <li><a href="faq.html">Por qué elegirnos</a></li>
+                        <li><a href="trabajo.html">Contáctanos</a></li>
                     </ul>
                 </div>
-            </nav>           
-        </header>
-        <section id="inicio" <!--inicio-->
+            </nav>
+        </header> 
+                <!--menu responsive-->
+                <ul class="sidenav" id="mobile-demo">
+                        <li><a href="creditos.html">Quiénes Somos</a></li>
+                        <li><a href="capacitacion.html">Servicios</a></li>
+                        <li><a href="faq.html">Por qué elegirnos</a></li>
+                        <li><a href="trabajo.html">Contáctanos</a></li>
+                </ul>
+        <section id="inicio"> <!--inicio-->
             <p>Somos profesionales, que entendemos las necesidades y las expectativas de nuestros clientes y socios, empatizamos contigo en la solución para lograr el bienestar y satisfacción que todos buscamos en nuestro patrimonio.</p>
             <button>Contáctanos</button>
         </section>
-        <section id="somos"> <!--quienes somos-->
+        <br><br><br>
+        <section> <!--quienes somos-->
             <div class="container">
                 <div class="row">
                     <div class="col m6 s12">
-
+                        <img src="img/collage.png" alt="" class="collage">
                     </div>
                     <div class="col m6 s12">
-                        <p>Profesionales Élite se desarrolla por la necesidad de obtener el sentimiento de seguridad, fraternidad y confort en nuestro lugar de residencia, combinamos toda nuestra 
+                        <p class="txt-somos">Profesionales Élite se desarrolla por la necesidad de obtener el sentimiento de seguridad, fraternidad y confort en nuestro lugar de residencia, combinamos toda nuestra 
                         pasión y experiencia para brindar los mejores servicios en equipo con nuestros socios comerciales.</p>
                     </div>
                 </div>
             </div>
         </section>
+        <br><br><br>
         <section> <!--servicios--> 
             <div class="container">
                 <div class="row">
@@ -201,8 +213,10 @@
         </footer>
 
       <!--JavaScript at end of body for optimized loading-->
+      <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="crossorigin="anonymous"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js">
         $(document).ready(function(){
+            $('.sidenav').sidenav();
             $(".dropdown-trigger").dropdown();
         });
       </script>

@@ -1,13 +1,64 @@
-/*encabezados*/
-h3, h5{
-    text-align: center;
-}
 
-<<<<<<< HEAD
 /*color del texto*/
 #somos, #elegirnos{
     color: #045975;
 }
+.logo{
+    width: 7%;
+    margin-left: 5%;
+    margin-top: 1%;
+}
+
+nav{
+    background-color: white;
+    height: 80px;
+}
+nav ul a{
+	color: #045975;
+	font-weight: bold;
+}
+
+
+
+
+#inicio{
+    background-image: url(img/inicio.jpg);
+    background-size: 100% 100%;
+    height: 600px;
+    margin-top: -2.5%;
+}
+#inicio p{
+    font-size: 2em;
+    text-align: center;
+    color: white;
+    padding: 12% 7% 5%;
+}
+#inicio button{
+    display: block;
+    margin: auto;
+    padding: 2%;
+    color: white;
+    background-color: #9aeba6;
+    border-radius: 15px;
+    border-style: none;
+    font-size: 1.5em;
+}
+
+
+.collage{
+    width: 100%;
+}
+.txt-somos{
+    color: #045975;
+    text-align: center;
+    font-size: 1.5em;
+    line-height: 45px;
+}
+
+
+
+
+
 
 /*inicio*/
 #inicio{
@@ -34,7 +85,7 @@ h3, h5{
     font-weight: bold;
     font-size: 1.5em;
     border-style: none;
-=======
+
 h3{
     text-align: center;
     color: #35c0ed;
@@ -47,7 +98,7 @@ h3{
 }
 #elegirnos i{
     color: #9aeba6;
->>>>>>> master
+
 }
 
 #trabajamos img{
@@ -63,7 +114,6 @@ h3{
     color: #045975;
 }
 
-<<<<<<< HEAD
 #trabajamos img{
     display: block;
     margin: auto;
@@ -74,19 +124,6 @@ h3{
     width: 25%;
     display: block;
     margin: auto;
-=======
-#valores img{
-    display: block;
-    margin: auto;
-    width: 20%;
-}
-#valores h5{
-    color: #35c0ed;
-    text-align: center;
-}
-#valores p{
-    color: #045975;
->>>>>>> master
 }
 
 footer{
@@ -96,16 +133,9 @@ footer{
     padding: 2% 0%;
     margin-top: 5%;
 }
-<<<<<<< HEAD
 
 footer img{
    padding: 5%;
    width: 20%;
    margin-top: 30%;
-=======
-footer img{
-    width: 20%;
-    padding: 5%;
-    margin-top: 20%;
->>>>>>> master
 }
