@@ -3,6 +3,10 @@
 #somos, #elegirnos{
     color: #045975;
 }
+html {
+    font-family: 'Nanum Gothic', sans-serif;
+  }
+
 .logo{
     width: 7%;
     margin-left: 5%;
@@ -17,9 +21,12 @@ nav ul a{
 	color: #045975;
 	font-weight: bold;
 }
+.waves-effect{
+    background-color: #9aeba6;
+}
 
 .sidenav-trigger{
-    color: #045975;
+    color: #045975 !important;
 }
 
 #inicio{
@@ -34,6 +41,12 @@ nav ul a{
     color: white;
     padding: 12% 7% 5%;
 }
+#inicio button{
+    display: block;
+    margin: auto;
+    background-color:#9aeba6;
+}
+
 .modal{
     background-color:#9aeba6;
     color: white;
@@ -54,52 +67,12 @@ nav ul a{
 }
 
 /*SERVICIOS*/
-.filtro{
-    background-color: rgba(4, 89,117, 0.7);
-}
-
-
-
-#admin{
-    background-image: url(img/admin.png);
-    background-size: 100% 100%;
-    width: 50%;
-    height: 300px;
-}
-
-/*inicio*/
-#inicio{
-    background-image:url(img/inicio.jpg);
-    background-size: 100% 100%;
-    width: 100%;
-    height: 600px;
-    margin-top: -2.5%;
-    margin-bottom: 5%;
-}
-#inicio p{
-    color: white;
-    padding: 10%;
-    text-align: center;
-    font-size: 2em;
-}
-#inicio button{
-    display: block;
-    margin: auto;
-    background-color: #9aeba6 !important;
-    color: white;
-    padding: 1%;
-    border-radius: 15px;
-    font-weight: bold;
-    font-size: 1.5em;
-    border-style: none;
-
 h3{
     text-align: center;
-    color: #35c0ed;
-    
-    
+    color: #35c0ed; 
 }
 
+/*POR QUE ELEGIRNOS*/
 #elegirnos p{
     color: #045975;
 }
@@ -107,7 +80,6 @@ h3{
     color: #9aeba6;
 
 }
-
 #trabajamos img{
     display: block;
     margin: auto;
@@ -120,8 +92,7 @@ h3{
 #trabajamos p{
     color: #045975;
 }
-
-#trabajamos img{
+#valores img{
     display: block;
     margin: auto;
     width: 15%;
@@ -132,7 +103,7 @@ h3{
     display: block;
     margin: auto;
 }
-
+/*FOOTER*/
 footer{
     margin-top: 10%;
     background-color: #045975;

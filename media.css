@@ -1,0 +1,98 @@
+/*movil vertical*/
+@media all and (min-width:360px) and (max-width:374px){
+	.logo{
+        width: 50%;
+        display: block;
+        margin: auto;
+        margin-top: 5%;
+    }
+    footer{
+        text-align: center;
+    }
+}
+/*movil horizontal*/
+@media all and (min-width:640px) and (max-width:666px){
+	.logo{
+        width: 30%;
+        display: block;
+        margin: auto;
+        margin-top: 3%;
+    }
+    .txt-somos{
+        font-size: initial;
+        line-height: normal;
+    }
+}
+
+/*Iphone vertical*/
+@media all and (min-width:375px) and (max-width:639px){
+	.logo{
+        width: 50%;
+        display: block;
+        margin: auto;
+        margin-top: 5%;
+    }
+    footer{
+        text-align: center;
+    }
+}
+
+/*iphone horizontal*/
+@media all and (min-width:667px) and (max-width:767px){
+	.logo{
+        width: 30%;
+        display: block;
+        margin: auto;
+        margin-top: 3%;
+    }
+    .txt-somos{
+        font-size: initial;
+        line-height: normal;
+    }
+}
+
+/*ipad vertical*/
+@media all and (min-width:768px) and (max-width:1023px){
+	.logo{
+        width: 30%;
+        display: block;
+        margin: auto;
+        margin-top: 1%;
+    }
+    .txt-somos{
+        font-size: initial;
+        line-height: 33px;
+    }
+}
+
+/*ipad horizontal*/
+@media all and (min-width:1024px) and (max-width:1199px){
+	.logo{
+        width: 10%;
+    }
+    .txt-somos{
+        font-size: 1.5em;
+        line-height: 28px;
+    }
+}
+/*desktop*/
+@media all and (min-width: 1200px){
+	.ds-py-hm{
+		height: 163px;
+	}
+	.ds-py-ser{
+		height: 148px;
+	}
+	.ds-py-hip{
+		height: 238px;
+	}
+	.ds-au-hip{
+		height: 238px;
+	}
+	.ds-hi-au{
+		height: 235px;
+	}
+	.ds-py-au{
+		height: 235px;
+	}
+}
