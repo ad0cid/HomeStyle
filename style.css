@@ -20,10 +20,8 @@ nav ul a{
     background-color: #9aeba6;
 }
 
-
-
 .sidenav-trigger{
-    color: #045975;
+    color: #045975 !important;
 }
 
 #inicio{
@@ -43,6 +41,7 @@ nav ul a{
     margin: auto;
     background-color:#9aeba6;
 }
+
 .modal{
     background-color:#9aeba6;
     color: white;
@@ -63,36 +62,18 @@ nav ul a{
 }
 
 /*SERVICIOS*/
-.filtro{
-    background-color: rgba(4, 89,117, 0.7);
-}
-
-
-
-#admin{
-    background-image: url(img/admin.png);
-    background-size: 100% 100%;
-    width: 50%;
-    height: 300px;
-}
-
-
-
-
 h3{
     text-align: center;
-    color: #35c0ed;
-    
-    
+    color: #35c0ed; 
 }
 
+/*POR QUE ELEGIRNOS*/
 #elegirnos p{
     color: #045975;
 }
 #elegirnos i{
     color: #9aeba6;
 }
-
 #trabajamos img{
     display: block;
     margin: auto;
@@ -105,7 +86,6 @@ h3{
 #trabajamos p{
     color: #045975;
 }
-
 #valores img{
     display: block;
     margin: auto;
@@ -118,7 +98,7 @@ h3{
 #valores p{
     color: #045975;
 }
-
+/*FOOTER*/
 footer{
     background-color: #045975;
     color: white !important;
