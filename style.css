@@ -18,6 +18,10 @@ nav ul a{
 	font-weight: bold;
 }
 
+.sidenav-trigger{
+    color: #045975;
+}
+
 #inicio{
     background-image: url(img/inicio.jpg);
     background-size: 100% 100%;
@@ -30,15 +34,13 @@ nav ul a{
     color: white;
     padding: 12% 7% 5%;
 }
-#inicio button{
-    display: block;
-    margin: auto;
-    padding: 2%;
+.modal{
+    background-color:#9aeba6;
     color: white;
-    background-color: #9aeba6;
-    border-radius: 15px;
-    border-style: none;
-    font-size: 1.5em;
+}
+.modal img{
+    width: 10%;
+    margin: 5%;
 }
 
 .collage{
@@ -63,11 +65,7 @@ nav ul a{
     background-size: 100% 100%;
     width: 50%;
     height: 300px;
-    filter: 
 }
-
-
-
 
 /*inicio*/
 #inicio{
@@ -147,4 +145,10 @@ footer img{
    padding: 5%;
    width: 20%;
    margin-top: 30%;
+    width: 20%;
+    padding: 5%;
+    margin-top: 20%;
+}
+footer a{
+    color: white;
 }
