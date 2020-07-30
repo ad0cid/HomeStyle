@@ -1,3 +1,7 @@
+html {
+    font-family: 'Nanum Gothic', sans-serif;
+  }
+
 .logo{
     width: 7%;
     margin-left: 5%;
@@ -12,6 +16,11 @@ nav ul a{
 	color: #045975;
 	font-weight: bold;
 }
+.waves-effect{
+    background-color: #9aeba6;
+}
+
+
 
 .sidenav-trigger{
     color: #045975;
@@ -28,6 +37,11 @@ nav ul a{
     text-align: center;
     color: white;
     padding: 12% 7% 5%;
+}
+#inicio button{
+    display: block;
+    margin: auto;
+    background-color:#9aeba6;
 }
 .modal{
     background-color:#9aeba6;
