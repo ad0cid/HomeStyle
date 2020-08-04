@@ -60,6 +60,9 @@ nav ul a{
     font-size: 1.5em;
     line-height: 45px;
 }
+.negritas{
+    font-weight:bold;
+}
 
 /*SERVICIOS*/
 h3{
@@ -70,6 +73,7 @@ h3{
 /*POR QUE ELEGIRNOS*/
 #elegirnos p{
     color: #045975;
+    font-size: 1.2em;
 }
 #elegirnos i{
     color: #9aeba6;
@@ -85,6 +89,7 @@ h3{
 }
 #trabajamos p{
     color: #045975;
+    font-size: 1.2em;
 }
 #valores img{
     display: block;
@@ -97,6 +102,7 @@ h3{
 }
 #valores p{
     color: #045975;
+    font-size: 1.2em;
 }
 /*FOOTER*/
 footer{
@@ -112,4 +118,7 @@ footer img{
 }
 footer a{
     color: white;
+}
+.foo-whats{
+    
 }
