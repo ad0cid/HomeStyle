@@ -2,7 +2,7 @@ html {
     font-family: 'Nanum Gothic', sans-serif;
   }
 
-.logo{
+.lpe{
     width: 7%;
     margin-left: 5%;
     margin-top: 1%;
@@ -118,7 +118,4 @@ footer img{
 }
 footer a{
     color: white;
-}
-.foo-whats{
-    
 }

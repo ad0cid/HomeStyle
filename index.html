@@ -4,6 +4,8 @@
         <meta charset="utf-8">
         <title>Profesionales Élite</title>
         <link  rel="icon"   href="img/favicon.ico" type="image/png" />
+        <!--font awesome-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <!--Google Font-->
         <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&display=swap" rel="stylesheet">
         <!--Import Google Icon Font-->
@@ -16,34 +18,32 @@
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="media.css">
     </head>
-
     <body>
-        <header class="navbar-fixed">
-            <!-- Dropdown Structure -->
-            <ul id="dropdown1" class="dropdown-content">
+        <header>
+            <div class="navbar-fixed">
+                <nav>
+                    <div class="nav-wrapper">
+                        <a href="index.html"><img src="img/logo.png" class="lpe" alt="Logo Profesionales Elite"></a>
+                        <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                        <ul class="right hide-on-med-and-down">
+                            <li><a href="#somos">Quiénes Somos</a></li>
+                            <li><a href="#administrativos">Servicios Administrativos</a></li>
+                            <li><a href="#generales">Servicios Generales</a></li>
+                            <li><a href="#elegirnos">Por qué elegirnos</a></li>
+                            <li><a class="waves-effect waves-light btn modal-trigger" href="#modal1">Contáctanos</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>   
+            <!--menu responsive-->
+            <ul class="sidenav" id="mobile-demo">
+                <li><a href="#somos">Quiénes Somos</a></li>
                 <li><a href="#administrativos">Servicios Administrativos</a></li>
                 <li><a href="#generales">Servicios Generales</a></li>
-            </ul>
-            <nav>
-                <div class="nav-wrapper">
-                    <a href="index.html" class="brand-logo"><img src="img/logo.png " class="logo" alt="Logo profesionales elite"></a>
-                    <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-                    <ul id="nav-mobile" class="right hide-on-med-and-down">
-                        <li><a href="#somos">Quiénes Somos</a></li>
-                        <li><a class="dropdown-trigger" href="#servicios" data-target="dropdown1">Servicios<i class="material-icons right">arrow_drop_down</i></a></li>
-                        <li><a href="#elegirnos">Por qúe elegirnos</a></li>
-                        <li><a class="waves-effect waves-light btn modal-trigger" href="#modal1">Contáctanos</a></li>
-                    </ul>
-                </div>
-            </nav>
-        </header> 
-        <!--menu responsive-->
-        <ul class="sidenav" id="mobile-demo">
-            <li><a href="#somos">Quiénes Somos</a></li>
-            <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">Servicios<i class="material-icons right">arrow_drop_down</i></a></li>
-            <li><a href="#elegirnos">Por qué elegirnos</a></li>
-            <li><a class="waves-effect waves-light btn modal-trigger" href="#modal1">Contáctanos</a></li>
-        </ul>
+                <li><a href="#elegirnos">Por qué elegirnos</a></li>
+                <li><a class="waves-effect waves-light btn modal-trigger" href="#modal1">Contáctanos</a></li>
+            </ul> 
+        </header>   
         <section id="inicio"> <!--inicio-->
             <p>Somos profesionales, que entendemos las necesidades y las expectativas de nuestros clientes y socios, empatizamos contigo en la solución para lograr el bienestar y satisfacción que todos buscamos en nuestro patrimonio.</p>
             <!-- Modal Trigger -->
@@ -62,7 +62,7 @@
                         </div>
                     </div>
                     <div class="modal-footer">
-                        <a href="#!" class="modal-close waves-effect waves-green btn-flat">Cerrar</a>
+                        <a href="#!" class="modal-close waves-green btn-flat">Cerrar</a>
                     </div>
                 </div>
         </section>
@@ -220,15 +220,16 @@
                         <br><br>
                     </div>
                     <div class="col m4 s12"> <!--contacto-->
-                        <i class="material-icons">access_time</i> <span>Lunes a Viernes
-                                9:00 - 19:00 hrs.</span>
+                        <i class="material-icons">access_time</i> 
+                        <span>Lunes a Viernes 9:00 - 19:00 hrs.</span>
                         <br>
                         <br>        
                         <i class="material-icons">location_on</i> <span>Av. Río Consulado #800, CDMX</span>
                         <br>
                         <br>
                         <a href="https://api.whatsapp.com/send?phone=525561691948&text=Hola,%20Quiero%20más%20información">
-                            <i class="material-icons">local_phone</i> <span>55 6169 1948</span>
+                            <i class="fa fa-whatsapp fa-lg"></i> 
+                            <span>55 6169 1948</span>
                         </a>   
                         <br>
                         <br>
