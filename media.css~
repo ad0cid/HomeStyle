@@ -1,13 +1,10 @@
 /*movil vertical*/
 @media all and (min-width:360px) and (max-width:374px){
-	.lpe{
-        width: 28%;
+	.pe-logo{
+        width: 50%;
         display: block;
         margin: auto;
-        margin-top: 3%;
-    }
-    .material-icons{
-        margin-top: -250%;
+        margin-top: 5%;
     }
     footer{
         text-align: center;
@@ -15,14 +12,11 @@
 }
 /*movil horizontal*/
 @media all and (min-width:640px) and (max-width:666px){
-	.lpe{
-        width: 18%;
+	.pe-logo{
+        width: 30%;
         display: block;
         margin: auto;
-        margin-top: 1%;
-    }
-    .material-icons{
-        margin-top: -300%;
+        margin-top: 3%;
     }
     .txt-somos{
         font-size: initial;
@@ -32,14 +26,11 @@
 
 /*Iphone vertical*/
 @media all and (min-width:375px) and (max-width:639px){
-	.lpe{
-        width: 28%;
+	.pe-logo{
+        width: 50%;
         display: block;
         margin: auto;
-        margin-top: 3%;
-    }
-    .material-icons{
-        margin-top: -250%;
+        margin-top: 5%;
     }
     footer{
         text-align: center;
@@ -48,14 +39,11 @@
 
 /*iphone horizontal*/
 @media all and (min-width:667px) and (max-width:767px){
-	.lpe{
-        width: 16%;
+	.pe-logo{
+        width: 30%;
         display: block;
         margin: auto;
-        margin-top: 1%;
-    }
-    .material-icons{
-        margin-top: -300%;
+        margin-top: 3%;
     }
     .txt-somos{
         font-size: initial;
@@ -65,14 +53,11 @@
 
 /*ipad vertical*/
 @media all and (min-width:768px) and (max-width:1023px){
-	.lpe{
-        width: 15%;
+	.pe-logo{
+        width: 30%;
         display: block;
         margin: auto;
         margin-top: 1%;
-    }
-    .material-icons{
-        margin-top: -300%;
     }
     .txt-somos{
         font-size: initial;
@@ -82,7 +67,7 @@
 
 /*ipad horizontal*/
 @media all and (min-width:1024px) and (max-width:1199px){
-	.lpe{
+	.pe-logo{
         width: 10%;
     }
     .txt-somos{
@@ -92,5 +77,5 @@
 }
 /*desktop*/
 @media all and (min-width: 1200px){
-   
+
 }
