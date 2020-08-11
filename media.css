@@ -1,7 +1,7 @@
 /*movil vertical*/
 @media all and (min-width:360px) and (max-width:374px){
 	.lpe{
-        width: 28%;
+        width: 45%;
         display: block;
         margin: auto;
         margin-top: 3%;
@@ -16,7 +16,7 @@
 /*movil horizontal*/
 @media all and (min-width:640px) and (max-width:666px){
 	.lpe{
-        width: 18%;
+        width: 30%;
         display: block;
         margin: auto;
         margin-top: 1%;
@@ -33,7 +33,7 @@
 /*Iphone vertical*/
 @media all and (min-width:375px) and (max-width:639px){
 	.lpe{
-        width: 28%;
+        width: 45%;
         display: block;
         margin: auto;
         margin-top: 3%;
@@ -49,7 +49,7 @@
 /*iphone horizontal*/
 @media all and (min-width:667px) and (max-width:767px){
 	.lpe{
-        width: 16%;
+        width: 30%;
         display: block;
         margin: auto;
         margin-top: 1%;
@@ -66,7 +66,7 @@
 /*ipad vertical*/
 @media all and (min-width:768px) and (max-width:1023px){
 	.lpe{
-        width: 15%;
+        width: 25%;
         display: block;
         margin: auto;
         margin-top: 1%;
@@ -83,7 +83,7 @@
 /*ipad horizontal*/
 @media all and (min-width:1024px) and (max-width:1199px){
 	.lpe{
-        width: 10%;
+        width: 15%;
     }
     .txt-somos{
         font-size: 1.5em;
